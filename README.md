@@ -1,6 +1,6 @@
 # CppUserGroupSofia
 
-C++ User Grpup Sofia repository
+C++ User Group Sofia repository
 
 We'll add presentations, source and other files from our group meetings here. 
 
