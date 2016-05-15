@@ -243,12 +243,12 @@ bool is_every_D_impl(std::random_access_iterator_tag, Iter _First, Iter _Last, s
 template <class Iter>
 bool is_every_D_impl(std::forward_iterator_tag, Iter _First, Iter _Last, size_t D)
 {
+	if (_First == _Last)
+		return false;
+
 	auto N = *_First;
 	do
 	{
-		if (_First == _Last)
-			return false;
-
 		for (auto i = 0; i < D; ++i)
 			if (++_First == _Last)
 				return true;
