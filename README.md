@@ -1,4 +1,4 @@
-# CppUserGroupSofia
+# C++ User Group Sofia
 
 C++ User Group Sofia repository
 
